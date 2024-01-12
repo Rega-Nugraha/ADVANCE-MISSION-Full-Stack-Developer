@@ -35,9 +35,13 @@ img {
     width: 100%;
 }
 body {
-    background: url(/assets/img/bg-coffee-beans.jpg) center center no-repeat; /* digunakan apabila keadaan open with live server
-    /* background: url(https://via.placeholder.com/1000); apabila digunakan pada saat stop live server */
+    background: url(/assets/img/bg-coffee-beans.jpg); /* digunakan apabila keadaan open with live server */
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   /* background: url(https://via.placeholder.com/1000); apabila digunakan pada saat stop live server */
+    background-size: cover; */
 }
 header {
     position: fixed;

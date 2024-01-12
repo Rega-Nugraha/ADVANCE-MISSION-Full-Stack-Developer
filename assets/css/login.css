@@ -17,7 +17,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: var(--main-color);
+    background: url(/assets/img/bg-coffee-beans.jpg); /* digunakan apabila keadaan open with live server */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .login-container {

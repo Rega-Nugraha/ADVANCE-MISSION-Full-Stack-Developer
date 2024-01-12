@@ -22,8 +22,12 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     max-height: 100vh;
-    background-color: var(--main-color);
     position: relative;
+    background: url(/assets/img/bg-coffee-beans.jpg); /* digunakan apabila keadaan open with live server */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
